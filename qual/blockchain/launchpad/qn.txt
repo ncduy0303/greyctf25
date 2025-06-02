@@ -1,0 +1,13 @@
+Since token launchpads are the new trend nowadays, we decided to write our own! Will grey.fun be the next billion dollar protocol?
+
+nc challs.nusgreyhats.org 33501
+
+your private blockchain has been deployed!
+it will automatically terminate in 10.0 minutes
+here's some useful information
+
+uuid:           f21227ec-3bc2-45b8-a95a-492945341bff
+rpc endpoint:   http://challs.nusgreyhats.org:33502/f21227ec-3bc2-45b8-a95a-492945341bff
+private key:    0xa67b51640cc81330e8bf4e8a96120d3bfe13ccd99a7fb18e50f59ecc623c7967
+public key:     0x671986E67Df56a3F32c18460b6Bf6A559f9fd4b3
+setup contract: 0x46D1Bf78ec98111B851508abF32841ce862982E6

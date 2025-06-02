@@ -1,0 +1,18 @@
+You have just stolen top secret production files of a secret board. Hmm, I wonder what it could be?
+
+// Use KiCad software to open the file and see what you can find.
+
+> section1: m3ch4
+> section2: 4rMy
+> event: @_f1n4l5
+> secret_pin_no:
+> grey{see_greym3ch4/4rMy_@_f1n4l5_37}
+> grey{see_greym3ch4/4rMy_@_f1n4l5_U7}
+> grey{see_greym3ch4/4rMy_@_f1n4l5_P7}
+> grey{see_greym3ch4/4rMy_@_f1n4l5_07}
+> grey{see_greym3ch4/4rMy_@_f1n4l5_P6}
+> grey{see_greym3ch4/4rMy_@_f1n4l5_06}
+> grey{see_greym3ch4/4rMy_@_f1n4l5_13}
+> grey{see_greym3ch4/4rMy_@_f1n4l5_18}
+> grey{see_greym3ch4/4rMy_@_f1n4l5_11}
+Flag: grey{see_greym3ch4/4rMy_@_f1n4l5_25}

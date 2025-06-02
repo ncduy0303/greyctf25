@@ -1,0 +1,7 @@
+Shaker
+842
+hadnot
+
+You found a shaker. Can you get the flag out?
+
+nc challs.nusgreyhats.org 33302

