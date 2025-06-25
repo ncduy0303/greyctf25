@@ -1,7 +1,8 @@
-name: 🐞 Bug
+name: 🐞 Bug Report
 description: File a bug/issue
-title: "[BUG] <title>"
-labels: ["Bug", "Needs Triage"]
+labels: ["bug"]
+assignees:
+  - ncduy0303
 body:
 - type: checkboxes
   attributes:
@@ -28,26 +29,22 @@ body:
     description: Steps to reproduce the behavior.
     placeholder: |
       1. In this environment...
-      1. With this config...
-      1. Run '...'
-      1. See error...
+      2. With this configuration...
+      3. Run '...'
+      4. See error...
   validations:
     required: false
-- type: textarea
+- type: dropdown
+  id: browsers
   attributes:
-    label: Environment
-    description: |
-      examples:
-        - **OS**: Ubuntu 20.04
-        - **Node**: 13.14.0
-        - **npm**: 7.6.3
-    value: |
-        - OS:
-        - Node:
-        - npm:
-    render: markdown
-  validations:
-    required: false
+    label: What browsers are you seeing the problem on?
+    multiple: true
+    options:
+      - Firefox
+      - Chrome
+      - Safari
+      - Microsoft Edge
+      - Opera
 - type: textarea
   attributes:
     label: Anything else?
