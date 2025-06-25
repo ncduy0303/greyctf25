@@ -1,0 +1,66 @@
+name: 📝 Documentation
+description: Report missing, unclear, or incorrect documentation
+labels: ["Documentation"]
+assignees:
+  - cysjonathan
+  - adi-herwana-nus
+body:
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if a documentation issue already exists.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: dropdown
+  attributes:
+    label: Documentation Type
+    multiple: true
+    options:
+      - Setup/Installation Guide
+      - User Guide
+      - Developer Guide
+      - Code Comments
+      - Other
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Location
+    description: Where is the documentation issue? (URL, file path, or section)
+  validations:
+    required: false
+- type: dropdown
+  attributes:
+    label: Issue Type
+    multiple: true
+    options:
+      - Missing documentation
+      - Incorrect information
+      - Unclear content
+      - Typo
+      - Broken links
+      - Other
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Current Content
+    description: What does the current documentation say? (if applicable)
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Expected Content
+    description: What should the documentation say instead?
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: |
+      Links? References? Any additional information that would help improve the documentation!
+      
+      Tip: You can attach images or files by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
