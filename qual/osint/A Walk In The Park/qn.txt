@@ -19,4 +19,5 @@ Singapore
 
 Then, submit the flag as grey{abc_park_123_main_st_singapore}.
 
-> Grey the signboard before google reverse image search.
+> C1: Grey the signboard before google reverse image search. -> https://outgress.com/portals/upper-serangoon-road-interim-park.3640457/
+> C2: Check the metadata for the_real_lim_kx -> instagram -> strava
