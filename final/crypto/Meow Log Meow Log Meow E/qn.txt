@@ -1,0 +1,21 @@
+Meow Log Meow Log Meow E
+996
+n00bcak
+
+Title: meow-log-meow-log-meow-e
+
+Description:
+
+I heard that RSA is vulnerable when you use small public exponents. But I like to repeat myself a lot!
+
+I heard that RSA is vulnerable when you use small public exponents. So I made sure to use a bigger public exponent!
+
+I heard that RSA is vulnerable when you use small public exponents. Now I can encrypt messages even if they are related!
+
+I heard that RSA is vulnerable when you use small public exponents. Wait, why is there e in my ring of integers?
+
+(NOTICE 2: Sorry the challenge isnt clear enough. e_power(x, ff, po) computes e^x over ff. As for po... What is an irrational number doing in an integer ring???)
+
+(Note: The intended solution takes a BIIIT longer to run than your typical crypto solve script.
+
+Please be patient, and have a ball of yarn on us!)

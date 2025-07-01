@@ -1,0 +1,5 @@
+Dlog24
+936
+ariana
+
+I heard dlog was easy over mod p, but p^24 should be safe enough...

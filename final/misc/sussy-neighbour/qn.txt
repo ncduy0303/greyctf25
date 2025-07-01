@@ -1,0 +1,11 @@
+sussy-neighbour
+1000
+elmo, sayo
+
+You recently moved to a new home and today your outgoing neighbour Tom came up to you to tell you that they had setup a new camera outside their entrance. Being the curious person and having watched many videos online on how people's camera got hacked, you naturally wanted to see what you could do (and uncover) with your newly learnt ethical wifi hacking skills.
+
+Figure out how to connect and infiltrate tom's home wifi, and get as much information as you can from his wifi network.
+
+Note: The only wifi connection you should be attacking/inflirtrating should be named "tom's home" and nothing else.
+
+Note: You DO NOT need to run automated brute-forcing tools such as nmap, ip scanners, and http spammers to solve this challenge.

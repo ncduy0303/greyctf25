@@ -1,0 +1,1455 @@
+mpy_source_file: ..\..\brick_game.mpy
+source_file: v1.6_obfuscated_release.py
+header: 4d:06:00:1f
+qstr_table[78]:
+    v1.6_obfuscated_release.py
+    <module>
+    displayio
+    terminalio
+    random
+    time
+    array
+    BouncyCastle
+    Brick
+    brick_game
+    right
+    down
+    center
+    left
+    btn_action
+    display
+    set_mode_buttons
+    debounce_time
+    up
+    a
+    b
+    reg
+    Palette
+    FONT
+    get_bounding_box
+    TileGrid
+    bitmap
+    tile_width
+    tile_height
+    pixel_shader
+    width
+    height
+    x
+    y
+    Terminal
+    Bitmap
+    Group
+    scale
+    append
+    root_group
+    randint
+    monotonic
+    write
+    choice
+    
+
+%08d
+    draw
+    hit
+    sleep
+    chk
+    value
+    pop
+    rotation
+    __init__
+    button_states
+    last_trigger_times
+    color
+    kind
+    BRICKS
+    ROTATIONS
+    <listcomp>
+    _C
+    _B
+    _A
+    __name__
+    __module__
+    __qualname__
+    hw_state
+    print
+    A
+    button_id
+    current_state
+    image
+    IndexError
+    dx
+    dy
+    dr
+    *
+    ord
+obj_table: [0.05, b'ftqr\xf0', (1, 0, 0, 1, -1, -1), (0, 1, -1, 0, -1, 0), (-1, 0, 0, -1, -2, 0), (0, -1, 1, 0, -2, -1), 'Controls: center=hard drop, a=Counter-clockwise rotate, b=Clockwise rotate, left=move left, right=move right, up=nothing, down=soft drop', 'fpga_overlay', 0.04, 'SECRET MULTIPLIER ACTIVE!', 0.5, 'ITS MY FIRST DAY ON THE JOB MISTER ELMA IS A GREAT BOSS', 'HELP ME I AM BEING ENSLAVED BY LORD ELMA WORKING FOR FREE', "So much 4 cyber 'expert' ", 'Mum sent u 2 skool 4 dis?', 'bro u got try meh????????', 'meow meow meow meow meow ', 'meow meow u lost meowmeow', 'omg y u so noob meow meow', 'stop playing go bak 2 sku', 'i tot finalist wld b btr!', 'Um, maybe can try harder?', 'Bro rm rf last brain cell', 'Smth easier... whats 1+1?', 'grey{go_do_this_on_stage}', 'loser! loser alert class!', 'how old alr cant game ah?', 'gray{here_is_a_pity_flag}', 'u touched too much grass?', 'gray{this_guy_bad_@_game}', 'gray{fke_fleg_cos_u_lost}', 'go solv u chals skrub lol', 'wow i actl beat some1 tdy', 'yur mommy is dissapointed', "That's a real sad attempt", 'gray{no_way_u_fall_4_dis}', 'Restarting game..........', 0.075]
+simple_name: <module>
+  raw bytecode: 81 10:14:01:23:23:23:38:4c:89:0a:89:1b:50:16:3c:51:16:3d:52:16:3e:80:51:1b:02:16:02:80:51:1b:03:16:03:80:51:1b:04:16:04:80:51:1b:05:16:05:80:10:06:2a:01:1b:06:1c:06:16:06:59:54:32:00:10:07:34:02:16:07:54:32:01:10:08:34:02:16:08:32:02:16:09:51:63
+  prelude: (3, 0, 0, 0, 0, 0)
+  args: []
+  line info: 23:23:23:38:4c:89:0a:89:1b
+  50          LOAD_CONST_FALSE 
+  16:3c       STORE_NAME _C
+  51          LOAD_CONST_NONE 
+  16:3d       STORE_NAME _B
+  52          LOAD_CONST_TRUE 
+  16:3e       STORE_NAME _A
+  80          LOAD_CONST_SMALL_INT 0 
+  51          LOAD_CONST_NONE 
+  1b:02       IMPORT_NAME displayio
+  16:02       STORE_NAME displayio
+  80          LOAD_CONST_SMALL_INT 0 
+  51          LOAD_CONST_NONE 
+  1b:03       IMPORT_NAME terminalio
+  16:03       STORE_NAME terminalio
+  80          LOAD_CONST_SMALL_INT 0 
+  51          LOAD_CONST_NONE 
+  1b:04       IMPORT_NAME random
+  16:04       STORE_NAME random
+  80          LOAD_CONST_SMALL_INT 0 
+  51          LOAD_CONST_NONE 
+  1b:05       IMPORT_NAME time
+  16:05       STORE_NAME time
+  80          LOAD_CONST_SMALL_INT 0 
+  10:06       LOAD_CONST_STRING array
+  2a:01       BUILD_TUPLE 1
+  1b:06       IMPORT_NAME array
+  1c:06       IMPORT_FROM array
+  16:06       STORE_NAME array
+  59          POP_TOP 
+  54          LOAD_BUILD_CLASS 
+  32:00       MAKE_FUNCTION 0
+  10:07       LOAD_CONST_STRING BouncyCastle
+  34:02       CALL_FUNCTION 2
+  16:07       STORE_NAME BouncyCastle
+  54          LOAD_BUILD_CLASS 
+  32:01       MAKE_FUNCTION 1
+  10:08       LOAD_CONST_STRING Brick
+  34:02       CALL_FUNCTION 2
+  16:08       STORE_NAME Brick
+  32:02       MAKE_FUNCTION 2
+  16:09       STORE_NAME brick_game
+  51          LOAD_CONST_NONE 
+  63          RETURN_VALUE 
+  children: ['BouncyCastle', 'Brick', 'brick_game']
+simple_name: BouncyCastle
+  raw bytecode: 34 08:0a:07:88:07:29:24:11:3f:16:40:10:07:16:41:23:00:2a:01:53:33:00:16:34:32:01:16:15:32:02:16:30:51:63
+  prelude: (2, 0, 0, 0, 0, 0)
+  args: []
+  line info: 88:07:29:24
+  11:3f       LOAD_NAME __name__
+  16:40       STORE_NAME __module__
+  10:07       LOAD_CONST_STRING BouncyCastle
+  16:41       STORE_NAME __qualname__
+  23:00       LOAD_CONST_OBJ 0.05
+  2a:01       BUILD_TUPLE 1
+  53          LOAD_NULL 
+  33:00       MAKE_FUNCTION_DEFARGS 0
+  16:34       STORE_NAME __init__
+  32:01       MAKE_FUNCTION 1
+  16:15       STORE_NAME reg
+  32:02       MAKE_FUNCTION 2
+  16:30       STORE_NAME chk
+  51          LOAD_CONST_NONE 
+  63          RETURN_VALUE 
+  children: ['__init__', 'reg', 'chk']
+simple_name: __init__
+  raw bytecode: 24 9a:01:0a:34:44:11:80:07:b1:b0:18:11:2c:00:b0:18:35:2c:00:b0:18:36:51:63
+  prelude: (4, 0, 0, 2, 0, 1)
+  args: ['A', 'debounce_time']
+  line info: 80:07
+  b1          LOAD_FAST 1 
+  b0          LOAD_FAST 0 
+  18:11       STORE_ATTR debounce_time
+  2c:00       BUILD_MAP 0
+  b0          LOAD_FAST 0 
+  18:35       STORE_ATTR button_states
+  2c:00       BUILD_MAP 0
+  b0          LOAD_FAST 0 
+  18:36       STORE_ATTR last_trigger_times
+  51          LOAD_CONST_NONE 
+  63          RETURN_VALUE 
+  children: []
+simple_name: reg
+  raw bytecode: 24 2a:0a:15:44:45:80:08:b1:c2:12:3e:b0:13:35:b2:56:80:b0:13:36:b2:56:51:63
+  prelude: (6, 0, 0, 2, 0, 0)
+  args: ['A', 'button_id']
+  line info: 80:08
+  b1          LOAD_FAST 1 
+  c2          STORE_FAST 2 
+  12:3e       LOAD_GLOBAL _A
+  b0          LOAD_FAST 0 
+  13:35       LOAD_ATTR button_states
+  b2          LOAD_FAST 2 
+  56          STORE_SUBSCR 
+  80          LOAD_CONST_SMALL_INT 0 
+  b0          LOAD_FAST 0 
+  13:36       LOAD_ATTR last_trigger_times
+  b2          LOAD_FAST 2 
+  56          STORE_SUBSCR 
+  51          LOAD_CONST_NONE 
+  63          RETURN_VALUE 
+  children: []
+simple_name: chk
+  raw bytecode: 77 4b:16:30:44:45:46:80:0a:2b:30:27:2c:2f:b2:c3:b1:c4:12:05:14:29:36:00:c5:b5:b0:13:36:b4:55:f3:b0:13:11:d7:44:43:12:3c:63:b4:b0:13:35:dd:44:5b:b0:13:35:b4:55:c6:b3:b0:13:35:b4:56:b6:44:4c:b3:43:49:b5:b0:13:36:b4:56:12:3e:63:12:3c:63
+  prelude: (10, 0, 0, 3, 0, 0)
+  args: ['A', 'button_id', 'current_state']
+  line info: 80:0a:2b:30:27:2c:2f
+  b2          LOAD_FAST 2 
+  c3          STORE_FAST 3 
+  b1          LOAD_FAST 1 
+  c4          STORE_FAST 4 
+  12:05       LOAD_GLOBAL time
+  14:29       LOAD_METHOD monotonic
+  36:00       CALL_METHOD 0
+  c5          STORE_FAST 5 
+  b5          LOAD_FAST 5 
+  b0          LOAD_FAST 0 
+  13:36       LOAD_ATTR last_trigger_times
+  b4          LOAD_FAST 4 
+  55          LOAD_SUBSCR 
+  f3          BINARY_OP 28 __sub__ 
+  b0          LOAD_FAST 0 
+  13:11       LOAD_ATTR debounce_time
+  d7          BINARY_OP 0 __lt__ 
+  44:43       POP_JUMP_IF_FALSE 3
+  12:3c       LOAD_GLOBAL _C
+  63          RETURN_VALUE 
+  b4          LOAD_FAST 4 
+  b0          LOAD_FAST 0 
+  13:35       LOAD_ATTR button_states
+  dd          BINARY_OP 6 <in> 
+  44:5b       POP_JUMP_IF_FALSE 27
+  b0          LOAD_FAST 0 
+  13:35       LOAD_ATTR button_states
+  b4          LOAD_FAST 4 
+  55          LOAD_SUBSCR 
+  c6          STORE_FAST 6 
+  b3          LOAD_FAST 3 
+  b0          LOAD_FAST 0 
+  13:35       LOAD_ATTR button_states
+  b4          LOAD_FAST 4 
+  56          STORE_SUBSCR 
+  b6          LOAD_FAST 6 
+  44:4c       POP_JUMP_IF_FALSE 12
+  b3          LOAD_FAST 3 
+  43:49       POP_JUMP_IF_TRUE 9
+  b5          LOAD_FAST 5 
+  b0          LOAD_FAST 0 
+  13:36       LOAD_ATTR last_trigger_times
+  b4          LOAD_FAST 4 
+  56          STORE_SUBSCR 
+  12:3e       LOAD_GLOBAL _A
+  63          RETURN_VALUE 
+  12:3c       LOAD_GLOBAL _C
+  63          RETURN_VALUE 
+  children: []
+simple_name: Brick
+  raw bytecode: 58 18:0e:08:88:11:30:24:89:0c:11:3f:16:40:10:08:16:41:23:01:16:39:23:02:23:03:23:04:23:05:2b:04:16:3a:32:00:16:34:11:3d:2a:01:53:33:01:16:2d:80:80:80:2a:03:53:33:02:16:2e:51:63
+  prelude: (4, 0, 0, 0, 0, 0)
+  args: []
+  line info: 88:11:30:24:89:0c
+  11:3f       LOAD_NAME __name__
+  16:40       STORE_NAME __module__
+  10:08       LOAD_CONST_STRING Brick
+  16:41       STORE_NAME __qualname__
+  23:01       LOAD_CONST_OBJ b'ftqr\xf0'
+  16:39       STORE_NAME BRICKS
+  23:02       LOAD_CONST_OBJ (1, 0, 0, 1, -1, -1)
+  23:03       LOAD_CONST_OBJ (0, 1, -1, 0, -1, 0)
+  23:04       LOAD_CONST_OBJ (-1, 0, 0, -1, -2, 0)
+  23:05       LOAD_CONST_OBJ (0, -1, 1, 0, -2, -1)
+  2b:04       BUILD_LIST 4
+  16:3a       STORE_NAME ROTATIONS
+  32:00       MAKE_FUNCTION 0
+  16:34       STORE_NAME __init__
+  11:3d       LOAD_NAME _B
+  2a:01       BUILD_TUPLE 1
+  53          LOAD_NULL 
+  33:01       MAKE_FUNCTION_DEFARGS 1
+  16:2d       STORE_NAME draw
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  2a:03       BUILD_TUPLE 3
+  53          LOAD_NULL 
+  33:02       MAKE_FUNCTION_DEFARGS 2
+  16:2e       STORE_NAME hit
+  51          LOAD_CONST_NONE 
+  63          RETURN_VALUE 
+  children: ['__init__', 'draw', 'hit']
+simple_name: __init__
+  raw bytecode: 33 1a:0a:34:44:38:80:12:81:b0:18:20:82:b0:18:21:b1:85:f8:81:f2:b0:18:37:80:b0:18:33:b1:b0:18:38:51:63
+  prelude: (4, 0, 0, 2, 0, 0)
+  args: ['A', 'kind']
+  line info: 80:12
+  81          LOAD_CONST_SMALL_INT 1 
+  b0          LOAD_FAST 0 
+  18:20       STORE_ATTR x
+  82          LOAD_CONST_SMALL_INT 2 
+  b0          LOAD_FAST 0 
+  18:21       STORE_ATTR y
+  b1          LOAD_FAST 1 
+  85          LOAD_CONST_SMALL_INT 5 
+  f8          BINARY_OP 33 __mod__ 
+  81          LOAD_CONST_SMALL_INT 1 
+  f2          BINARY_OP 27 __add__ 
+  b0          LOAD_FAST 0 
+  18:37       STORE_ATTR color
+  80          LOAD_CONST_SMALL_INT 0 
+  b0          LOAD_FAST 0 
+  18:33       STORE_ATTR rotation
+  b1          LOAD_FAST 1 
+  b0          LOAD_FAST 0 
+  18:38       STORE_ATTR kind
+  51          LOAD_CONST_NONE 
+  63          RETURN_VALUE 
+  children: []
+simple_name: draw
+  raw bytecode: 152 8f:11:22:2d:44:47:37:80:14:22:2a:32:26:26:26:26:25:1f:2f:23:b2:c3:b3:12:3d:de:44:44:b0:13:37:c3:b0:13:39:b0:13:38:55:c4:b0:13:3a:b0:13:33:55:c5:81:c6:80:42:d9:80:57:c7:b7:b5:85:55:e5:c7:80:42:c4:80:57:c8:b8:b5:84:55:e5:c8:b4:b6:ef:44:71:48:25:b3:b1:b0:13:20:b8:b5:80:55:f4:f2:b7:b5:81:55:f4:f2:b0:13:21:b8:b5:82:55:f4:f2:b7:b5:83:55:f4:f2:2a:02:56:4a:0a:57:12:48:df:44:43:59:4a:01:5d:b6:81:e3:c6:81:e5:57:84:d7:43:b6:7f:59:81:e5:57:82:d7:43:a1:7f:59:51:63
+  prelude: (18, 1, 0, 3, 0, 1)
+  args: ['A', 'image', 'color']
+  line info: 80:14:22:2a:32:26:26:26:26:25:1f:2f:23
+  b2          LOAD_FAST 2 
+  c3          STORE_FAST 3 
+  b3          LOAD_FAST 3 
+  12:3d       LOAD_GLOBAL _B
+  de          BINARY_OP 7 <is> 
+  44:44       POP_JUMP_IF_FALSE 4
+  b0          LOAD_FAST 0 
+  13:37       LOAD_ATTR color
+  c3          STORE_FAST 3 
+  b0          LOAD_FAST 0 
+  13:39       LOAD_ATTR BRICKS
+  b0          LOAD_FAST 0 
+  13:38       LOAD_ATTR kind
+  55          LOAD_SUBSCR 
+  c4          STORE_FAST 4 
+  b0          LOAD_FAST 0 
+  13:3a       LOAD_ATTR ROTATIONS
+  b0          LOAD_FAST 0 
+  13:33       LOAD_ATTR rotation
+  55          LOAD_SUBSCR 
+  c5          STORE_FAST 5 
+  81          LOAD_CONST_SMALL_INT 1 
+  c6          STORE_FAST 6 
+  80          LOAD_CONST_SMALL_INT 0 
+  42:d9:80    JUMP 89
+  57          DUP_TOP 
+  c7          STORE_FAST 7 
+  b7          LOAD_FAST 7 
+  b5          LOAD_FAST 5 
+  85          LOAD_CONST_SMALL_INT 5 
+  55          LOAD_SUBSCR 
+  e5          BINARY_OP 14 __iadd__ 
+  c7          STORE_FAST 7 
+  80          LOAD_CONST_SMALL_INT 0 
+  42:c4:80    JUMP 68
+  57          DUP_TOP 
+  c8          STORE_FAST 8 
+  b8          LOAD_FAST 8 
+  b5          LOAD_FAST 5 
+  84          LOAD_CONST_SMALL_INT 4 
+  55          LOAD_SUBSCR 
+  e5          BINARY_OP 14 __iadd__ 
+  c8          STORE_FAST 8 
+  b4          LOAD_FAST 4 
+  b6          LOAD_FAST 6 
+  ef          BINARY_OP 24 __and__ 
+  44:71       POP_JUMP_IF_FALSE 49
+  48:25       SETUP_EXCEPT 37
+  b3          LOAD_FAST 3 
+  b1          LOAD_FAST 1 
+  b0          LOAD_FAST 0 
+  13:20       LOAD_ATTR x
+  b8          LOAD_FAST 8 
+  b5          LOAD_FAST 5 
+  80          LOAD_CONST_SMALL_INT 0 
+  55          LOAD_SUBSCR 
+  f4          BINARY_OP 29 __mul__ 
+  f2          BINARY_OP 27 __add__ 
+  b7          LOAD_FAST 7 
+  b5          LOAD_FAST 5 
+  81          LOAD_CONST_SMALL_INT 1 
+  55          LOAD_SUBSCR 
+  f4          BINARY_OP 29 __mul__ 
+  f2          BINARY_OP 27 __add__ 
+  b0          LOAD_FAST 0 
+  13:21       LOAD_ATTR y
+  b8          LOAD_FAST 8 
+  b5          LOAD_FAST 5 
+  82          LOAD_CONST_SMALL_INT 2 
+  55          LOAD_SUBSCR 
+  f4          BINARY_OP 29 __mul__ 
+  f2          BINARY_OP 27 __add__ 
+  b7          LOAD_FAST 7 
+  b5          LOAD_FAST 5 
+  83          LOAD_CONST_SMALL_INT 3 
+  55          LOAD_SUBSCR 
+  f4          BINARY_OP 29 __mul__ 
+  f2          BINARY_OP 27 __add__ 
+  2a:02       BUILD_TUPLE 2
+  56          STORE_SUBSCR 
+  4a:0a       POP_EXCEPT_JUMP 10
+  57          DUP_TOP 
+  12:48       LOAD_GLOBAL IndexError
+  df          BINARY_OP 8 <exception match> 
+  44:43       POP_JUMP_IF_FALSE 3
+  59          POP_TOP 
+  4a:01       POP_EXCEPT_JUMP 1
+  5d          END_FINALLY 
+  b6          LOAD_FAST 6 
+  81          LOAD_CONST_SMALL_INT 1 
+  e3          BINARY_OP 12 __ilshift__ 
+  c6          STORE_FAST 6 
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  57          DUP_TOP 
+  84          LOAD_CONST_SMALL_INT 4 
+  d7          BINARY_OP 0 __lt__ 
+  43:b6:7f    POP_JUMP_IF_TRUE -74
+  59          POP_TOP 
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  57          DUP_TOP 
+  82          LOAD_CONST_SMALL_INT 2 
+  d7          BINARY_OP 0 __lt__ 
+  43:a1:7f    POP_JUMP_IF_TRUE -95
+  59          POP_TOP 
+  51          LOAD_CONST_NONE 
+  63          RETURN_VALUE 
+  children: []
+simple_name: hit
+  raw bytecode: 157 8d:95:01:26:2e:44:47:49:4a:4b:80:20:36:26:26:26:26:25:22:1f:35:24:36:b0:13:39:b0:13:38:55:c5:b0:13:3a:b0:13:33:b4:f2:84:f8:55:c6:81:c7:80:42:e2:80:57:c8:b8:b6:85:55:e5:c8:80:42:cd:80:57:c9:b9:b6:84:55:e5:c9:b5:b7:ef:44:7a:48:2d:b1:b0:13:20:b2:f2:b9:b6:80:55:f4:f2:b8:b6:81:55:f4:f2:b0:13:21:b3:f2:b9:b6:82:55:f4:f2:b8:b6:83:55:f4:f2:2a:02:55:44:43:12:3e:63:4a:0b:57:12:48:df:44:44:59:12:3e:63:5d:b7:81:e3:c7:81:e5:57:84:d7:43:ad:7f:59:81:e5:57:82:d7:43:98:7f:59:12:3c:63
+  prelude: (18, 1, 0, 5, 0, 3)
+  args: ['A', 'image', 'dx', 'dy', 'dr']
+  line info: 80:20:36:26:26:26:26:25:22:1f:35:24:36
+  b0          LOAD_FAST 0 
+  13:39       LOAD_ATTR BRICKS
+  b0          LOAD_FAST 0 
+  13:38       LOAD_ATTR kind
+  55          LOAD_SUBSCR 
+  c5          STORE_FAST 5 
+  b0          LOAD_FAST 0 
+  13:3a       LOAD_ATTR ROTATIONS
+  b0          LOAD_FAST 0 
+  13:33       LOAD_ATTR rotation
+  b4          LOAD_FAST 4 
+  f2          BINARY_OP 27 __add__ 
+  84          LOAD_CONST_SMALL_INT 4 
+  f8          BINARY_OP 33 __mod__ 
+  55          LOAD_SUBSCR 
+  c6          STORE_FAST 6 
+  81          LOAD_CONST_SMALL_INT 1 
+  c7          STORE_FAST 7 
+  80          LOAD_CONST_SMALL_INT 0 
+  42:e2:80    JUMP 98
+  57          DUP_TOP 
+  c8          STORE_FAST 8 
+  b8          LOAD_FAST 8 
+  b6          LOAD_FAST 6 
+  85          LOAD_CONST_SMALL_INT 5 
+  55          LOAD_SUBSCR 
+  e5          BINARY_OP 14 __iadd__ 
+  c8          STORE_FAST 8 
+  80          LOAD_CONST_SMALL_INT 0 
+  42:cd:80    JUMP 77
+  57          DUP_TOP 
+  c9          STORE_FAST 9 
+  b9          LOAD_FAST 9 
+  b6          LOAD_FAST 6 
+  84          LOAD_CONST_SMALL_INT 4 
+  55          LOAD_SUBSCR 
+  e5          BINARY_OP 14 __iadd__ 
+  c9          STORE_FAST 9 
+  b5          LOAD_FAST 5 
+  b7          LOAD_FAST 7 
+  ef          BINARY_OP 24 __and__ 
+  44:7a       POP_JUMP_IF_FALSE 58
+  48:2d       SETUP_EXCEPT 45
+  b1          LOAD_FAST 1 
+  b0          LOAD_FAST 0 
+  13:20       LOAD_ATTR x
+  b2          LOAD_FAST 2 
+  f2          BINARY_OP 27 __add__ 
+  b9          LOAD_FAST 9 
+  b6          LOAD_FAST 6 
+  80          LOAD_CONST_SMALL_INT 0 
+  55          LOAD_SUBSCR 
+  f4          BINARY_OP 29 __mul__ 
+  f2          BINARY_OP 27 __add__ 
+  b8          LOAD_FAST 8 
+  b6          LOAD_FAST 6 
+  81          LOAD_CONST_SMALL_INT 1 
+  55          LOAD_SUBSCR 
+  f4          BINARY_OP 29 __mul__ 
+  f2          BINARY_OP 27 __add__ 
+  b0          LOAD_FAST 0 
+  13:21       LOAD_ATTR y
+  b3          LOAD_FAST 3 
+  f2          BINARY_OP 27 __add__ 
+  b9          LOAD_FAST 9 
+  b6          LOAD_FAST 6 
+  82          LOAD_CONST_SMALL_INT 2 
+  55          LOAD_SUBSCR 
+  f4          BINARY_OP 29 __mul__ 
+  f2          BINARY_OP 27 __add__ 
+  b8          LOAD_FAST 8 
+  b6          LOAD_FAST 6 
+  83          LOAD_CONST_SMALL_INT 3 
+  55          LOAD_SUBSCR 
+  f4          BINARY_OP 29 __mul__ 
+  f2          BINARY_OP 27 __add__ 
+  2a:02       BUILD_TUPLE 2
+  55          LOAD_SUBSCR 
+  44:43       POP_JUMP_IF_FALSE 3
+  12:3e       LOAD_GLOBAL _A
+  63          RETURN_VALUE 
+  4a:0b       POP_EXCEPT_JUMP 11
+  57          DUP_TOP 
+  12:48       LOAD_GLOBAL IndexError
+  df          BINARY_OP 8 <exception match> 
+  44:44       POP_JUMP_IF_FALSE 4
+  59          POP_TOP 
+  12:3e       LOAD_GLOBAL _A
+  63          RETURN_VALUE 
+  5d          END_FINALLY 
+  b7          LOAD_FAST 7 
+  81          LOAD_CONST_SMALL_INT 1 
+  e3          BINARY_OP 12 __ilshift__ 
+  c7          STORE_FAST 7 
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  57          DUP_TOP 
+  84          LOAD_CONST_SMALL_INT 4 
+  d7          BINARY_OP 0 __lt__ 
+  43:ad:7f    POP_JUMP_IF_TRUE -83
+  59          POP_TOP 
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  57          DUP_TOP 
+  82          LOAD_CONST_SMALL_INT 2 
+  d7          BINARY_OP 0 __lt__ 
+  43:98:7f    POP_JUMP_IF_TRUE -104
+  59          POP_TOP 
+  12:3c       LOAD_GLOBAL _C
+  63          RETURN_VALUE 
+  children: []
+simple_name: brick_game
+  raw bytecode: 1568 c1:30:98:02:09:42:80:2c:27:1f:1f:24:2e:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:2e:23:1f:30:28:1f:1f:1f:27:2d:1f:28:1f:1f:2a:36:23:28:2a:2a:2d:1f:27:2d:1f:27:2d:1f:27:2c:1f:2a:2c:1f:2a:2d:38:2e:3c:37:2a:2d:2c:2b:2a:57:30:27:1f:3e:26:12:43:23:06:34:01:59:10:0a:c1:10:0b:c2:10:0c:c3:10:0d:c4:10:0e:c5:b0:c6:b6:10:0f:55:c7:b6:23:07:55:14:10:36:00:c8:b6:b5:55:80:55:c9:b6:b5:55:81:55:ca:12:07:10:11:23:08:34:82:00:cb:b4:10:12:b3:b2:b1:10:13:10:14:2b:07:cc:bc:5f:4b:0a:cd:bb:14:15:bd:36:01:59:42:34:12:02:14:16:86:36:01:ce:22:83:fd:fe:7f:be:80:56:22:87:ff:fe:00:be:81:56:22:87:fd:fe:00:be:82:56:22:81:7f:be:83:56:22:84:80:81:00:be:84:56:22:83:ff:7f:be:85:56:12:02:14:16:82:36:01:cf:22:81:88:c4:22:bf:80:56:22:87:ff:dd:5d:bf:81:56:12:02:14:16:82:36:01:26:10:22:84:e4:80:00:24:10:80:56:22:83:fe:00:24:10:81:56:12:03:13:17:14:18:36:00:30:02:26:11:26:12:12:02:14:19:12:03:13:17:13:1a:10:1b:24:11:10:1c:24:12:10:1d:bf:10:1e:88:10:1f:81:36:8a:01:26:13:22:80:60:24:13:18:20:22:32:24:13:18:21:12:03:14:22:24:13:12:03:13:17:36:02:26:14:12:02:14:19:12:03:13:17:13:1a:10:1b:24:11:10:1c:24:12:10:1d:bf:10:1e:99:10:1f:81:36:8a:01:26:15:22:62:24:15:18:20:22:81:02:24:15:18:21:12:03:14:22:24:15:12:03:13:17:36:02:26:16:12:02:14:23:8a:94:86:36:03:26:17:12:02:14:23:84:84:86:36:03:26:18:12:02:14:24:10:25:88:36:82:00:26:19:24:19:14:26:12:02:14:19:24:17:10:1d:be:10:20:80:10:21:7c:36:86:01:36:01:59:24:19:14:26:12:02:14:19:24:18:10:1d:be:10:20:8c:10:21:80:36:86:01:36:01:59:12:02:14:24:36:00:26:1a:24:1a:14:26:24:19:36:01:59:24:1a:14:26:24:13:36:01:59:24:1a:14:26:24:15:36:01:59:12:02:14:24:36:00:24:1a:80:56:24:19:24:1a:80:56:22:80:50:24:1a:18:20:22:80:46:24:1a:18:21:24:1a:b7:18:27:23:09:26:1b:12:3d:26:1c:80:26:1d:12:08:12:04:14:28:80:84:36:02:34:01:26:1e:12:05:14:29:36:00:23:0a:f2:26:1f:81:81:81:81:81:81:81:81:81:81:2b:0a:26:20:23:0b:26:21:23:0c:26:22:24:22:22:35:55:24:22:91:55:f2:24:22:86:55:f2:24:22:97:55:f2:24:22:7f:55:f2:24:22:a7:55:f2:24:21:8d:55:f2:24:22:a2:55:f2:24:22:8d:55:f2:24:22:9c:55:f2:26:23:32:00:24:23:34:01:26:24:81:26:25:42:f1:86:24:20:24:24:51:51:7f:2e:03:55:d9:44:62:24:16:14:2a:24:1b:36:01:59:24:1d:81:e5:26:1d:22:87:68:26:25:80:80:80:80:80:80:80:80:80:80:2b:0a:26:20:24:1c:12:3d:de:44:e0:81:12:04:14:2b:23:0d:23:0e:23:0f:23:10:23:11:23:12:23:13:23:14:23:15:23:16:23:17:2b:0b:36:01:26:26:24:16:14:2a:24:26:36:01:59:24:14:14:2a:10:2c:24:1d:f8:36:01:59:24:1e:14:2d:24:18:80:36:02:59:24:1e:26:1c:24:17:13:1e:82:f6:24:1c:18:20:12:08:12:04:14:28:80:84:36:02:34:01:26:1e:24:1e:14:2d:24:18:36:01:59:24:1c:14:2e:24:17:80:80:36:03:44:ef:80:24:1d:22:80:ce:0e:d8:44:5e:24:16:14:2a:23:18:36:01:59:12:05:14:2f:8a:36:01:59:80:24:1a:18:20:80:24:1a:18:21:42:a7:85:12:04:14:2b:23:19:23:1a:23:1b:23:1c:23:1d:23:1e:23:1f:23:20:23:21:23:22:23:23:2b:0b:36:01:26:26:24:16:14:2a:24:26:36:01:59:12:05:14:2f:82:36:01:59:24:16:14:2a:23:24:36:01:59:12:05:14:2f:82:36:01:59:12:09:b6:34:01:59:24:1f:12:05:14:29:36:00:da:44:4b:12:05:14:29:36:00:23:0a:f2:26:1f:42:80:83:12:05:14:29:36:00:26:27:24:1f:24:27:da:44:43:42:f3:82:24:1c:14:2d:24:17:80:36:02:59:bb:14:30:b4:b8:80:55:13:31:36:02:44:66:24:1c:14:2e:24:17:7f:80:36:03:43:5a:24:1c:57:13:20:81:e6:5a:18:20:24:20:14:26:80:36:01:59:24:20:14:32:80:36:01:59:bb:14:30:b1:b8:84:55:13:31:36:02:44:66:24:1c:14:2e:24:17:81:80:36:03:43:5a:24:1c:57:13:20:81:e5:5a:18:20:24:20:14:26:84:36:01:59:24:20:14:32:80:36:01:59:bb:14:30:b2:b8:83:55:13:31:36:02:44:66:24:1c:14:2e:24:17:80:81:36:03:43:5a:24:1c:57:13:21:81:e5:5a:18:21:24:20:14:26:83:36:01:59:24:20:14:32:80:36:01:59:bb:14:30:10:13:b9:13:31:36:02:44:69:24:1c:14:2e:24:17:80:80:81:36:04:43:5c:24:1c:13:33:81:f2:84:f8:24:1c:18:33:24:20:14:26:85:36:01:59:24:20:14:32:80:36:01:59:bb:14:30:10:14:ba:13:31:36:02:44:69:24:1c:14:2e:24:17:80:80:7f:36:04:43:5c:24:1c:13:33:81:f3:84:f8:24:1c:18:33:24:20:14:26:86:36:01:59:24:20:14:32:80:36:01:59:bb:14:30:b3:b8:82:55:13:31:36:02:44:58:42:4a:24:1c:57:13:21:81:e5:5a:18:21:24:1c:14:2e:24:17:80:81:36:03:44:2a:bb:14:30:10:12:b8:81:55:13:31:36:02:44:5c:24:1c:14:2e:24:17:80:81:36:03:43:50:24:20:14:26:81:36:01:59:24:20:14:32:80:36:01:59:24:1c:14:2d:24:17:36:01:59:12:05:14:2f:23:25:36:01:59:12:3e:43:fb:7c:24:1c:14:2d:24:17:80:36:02:59:24:1c:14:2e:24:17:80:81:36:03:44:92:81:24:1c:14:2d:24:17:36:01:59:80:26:28:24:17:13:1f:80:42:f0:80:57:26:29:24:17:13:1e:80:42:53:57:26:2a:24:17:24:2a:24:29:2a:02:55:43:43:42:d1:80:81:e5:58:5a:d7:43:28:59:59:24:28:81:e5:26:28:24:1d:24:28:24:25:f4:e5:26:1d:24:29:42:6c:57:26:2b:24:17:13:1e:80:42:59:57:26:2a:24:17:24:2a:24:2b:81:f3:2a:02:55:24:17:24:2a:24:2b:2a:02:56:81:e5:58:5a:d7:43:22:59:59:7f:e5:57:80:d8:43:0f:59:42:42:59:59:81:e5:58:5a:d7:43:8a:7f:59:59:12:3d:26:1c:42:53:24:1c:57:13:21:81:e5:5a:18:21:24:1c:14:2d:24:17:36:01:59:12:3e:43:8a:79:51:63
+  prelude: (57, 0, 0, 1, 0, 0)
+  args: ['hw_state']
+  line info: 80:2c:27:1f:1f:24:2e:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:1f:2e:23:1f:30:28:1f:1f:1f:27:2d:1f:28:1f:1f:2a:36:23:28:2a:2a:2d:1f:27:2d:1f:27:2d:1f:27:2c:1f:2a:2c:1f:2a:2d:38:2e:3c:37:2a:2d:2c:2b:2a:57:30:27:1f:3e:26
+  12:43       LOAD_GLOBAL print
+  23:06       LOAD_CONST_OBJ 'Controls: center=hard drop, a=Counter-clockwise rotate, b=Clockwise rotate, left=move left, right=move right, up=nothing, down=soft drop'
+  34:01       CALL_FUNCTION 1
+  59          POP_TOP 
+  10:0a       LOAD_CONST_STRING right
+  c1          STORE_FAST 1 
+  10:0b       LOAD_CONST_STRING down
+  c2          STORE_FAST 2 
+  10:0c       LOAD_CONST_STRING center
+  c3          STORE_FAST 3 
+  10:0d       LOAD_CONST_STRING left
+  c4          STORE_FAST 4 
+  10:0e       LOAD_CONST_STRING btn_action
+  c5          STORE_FAST 5 
+  b0          LOAD_FAST 0 
+  c6          STORE_FAST 6 
+  b6          LOAD_FAST 6 
+  10:0f       LOAD_CONST_STRING display
+  55          LOAD_SUBSCR 
+  c7          STORE_FAST 7 
+  b6          LOAD_FAST 6 
+  23:07       LOAD_CONST_OBJ 'fpga_overlay'
+  55          LOAD_SUBSCR 
+  14:10       LOAD_METHOD set_mode_buttons
+  36:00       CALL_METHOD 0
+  c8          STORE_FAST 8 
+  b6          LOAD_FAST 6 
+  b5          LOAD_FAST 5 
+  55          LOAD_SUBSCR 
+  80          LOAD_CONST_SMALL_INT 0 
+  55          LOAD_SUBSCR 
+  c9          STORE_FAST 9 
+  b6          LOAD_FAST 6 
+  b5          LOAD_FAST 5 
+  55          LOAD_SUBSCR 
+  81          LOAD_CONST_SMALL_INT 1 
+  55          LOAD_SUBSCR 
+  ca          STORE_FAST 10 
+  12:07       LOAD_GLOBAL BouncyCastle
+  10:11       LOAD_CONST_STRING debounce_time
+  23:08       LOAD_CONST_OBJ 0.04
+  34:82:00    CALL_FUNCTION 256
+  cb          STORE_FAST 11 
+  b4          LOAD_FAST 4 
+  10:12       LOAD_CONST_STRING up
+  b3          LOAD_FAST 3 
+  b2          LOAD_FAST 2 
+  b1          LOAD_FAST 1 
+  10:13       LOAD_CONST_STRING a
+  10:14       LOAD_CONST_STRING b
+  2b:07       BUILD_LIST 7
+  cc          STORE_FAST 12 
+  bc          LOAD_FAST 12 
+  5f          GET_ITER_STACK 
+  4b:0a       FOR_ITER 10
+  cd          STORE_FAST 13 
+  bb          LOAD_FAST 11 
+  14:15       LOAD_METHOD reg
+  bd          LOAD_FAST 13 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  42:34       JUMP -12
+  12:02       LOAD_GLOBAL displayio
+  14:16       LOAD_METHOD Palette
+  86          LOAD_CONST_SMALL_INT 6 
+  36:01       CALL_METHOD 1
+  ce          STORE_FAST 14 
+  22:83:fd:fe:7f LOAD_CONST_SMALL_INT 8355711
+  be          LOAD_FAST 14 
+  80          LOAD_CONST_SMALL_INT 0 
+  56          STORE_SUBSCR 
+  22:87:ff:fe:00 LOAD_CONST_SMALL_INT 16776960
+  be          LOAD_FAST 14 
+  81          LOAD_CONST_SMALL_INT 1 
+  56          STORE_SUBSCR 
+  22:87:fd:fe:00 LOAD_CONST_SMALL_INT 16744192
+  be          LOAD_FAST 14 
+  82          LOAD_CONST_SMALL_INT 2 
+  56          STORE_SUBSCR 
+  22:81:7f    LOAD_CONST_SMALL_INT 255
+  be          LOAD_FAST 14 
+  83          LOAD_CONST_SMALL_INT 3 
+  56          STORE_SUBSCR 
+  22:84:80:81:00 LOAD_CONST_SMALL_INT 8388736
+  be          LOAD_FAST 14 
+  84          LOAD_CONST_SMALL_INT 4 
+  56          STORE_SUBSCR 
+  22:83:ff:7f LOAD_CONST_SMALL_INT 65535
+  be          LOAD_FAST 14 
+  85          LOAD_CONST_SMALL_INT 5 
+  56          STORE_SUBSCR 
+  12:02       LOAD_GLOBAL displayio
+  14:16       LOAD_METHOD Palette
+  82          LOAD_CONST_SMALL_INT 2 
+  36:01       CALL_METHOD 1
+  cf          STORE_FAST 15 
+  22:81:88:c4:22 LOAD_CONST_SMALL_INT 2236962
+  bf          LOAD_FAST 15 
+  80          LOAD_CONST_SMALL_INT 0 
+  56          STORE_SUBSCR 
+  22:87:ff:dd:5d LOAD_CONST_SMALL_INT 16772829
+  bf          LOAD_FAST 15 
+  81          LOAD_CONST_SMALL_INT 1 
+  56          STORE_SUBSCR 
+  12:02       LOAD_GLOBAL displayio
+  14:16       LOAD_METHOD Palette
+  82          LOAD_CONST_SMALL_INT 2 
+  36:01       CALL_METHOD 1
+  26:10       STORE_FAST_N 16
+  22:84:e4:80:00 LOAD_CONST_SMALL_INT 10027008
+  24:10       LOAD_FAST_N 16
+  80          LOAD_CONST_SMALL_INT 0 
+  56          STORE_SUBSCR 
+  22:83:fe:00 LOAD_CONST_SMALL_INT 65280
+  24:10       LOAD_FAST_N 16
+  81          LOAD_CONST_SMALL_INT 1 
+  56          STORE_SUBSCR 
+  12:03       LOAD_GLOBAL terminalio
+  13:17       LOAD_ATTR FONT
+  14:18       LOAD_METHOD get_bounding_box
+  36:00       CALL_METHOD 0
+  30:02       UNPACK_SEQUENCE 2
+  26:11       STORE_FAST_N 17
+  26:12       STORE_FAST_N 18
+  12:02       LOAD_GLOBAL displayio
+  14:19       LOAD_METHOD TileGrid
+  12:03       LOAD_GLOBAL terminalio
+  13:17       LOAD_ATTR FONT
+  13:1a       LOAD_ATTR bitmap
+  10:1b       LOAD_CONST_STRING tile_width
+  24:11       LOAD_FAST_N 17
+  10:1c       LOAD_CONST_STRING tile_height
+  24:12       LOAD_FAST_N 18
+  10:1d       LOAD_CONST_STRING pixel_shader
+  bf          LOAD_FAST 15 
+  10:1e       LOAD_CONST_STRING width
+  88          LOAD_CONST_SMALL_INT 8 
+  10:1f       LOAD_CONST_STRING height
+  81          LOAD_CONST_SMALL_INT 1 
+  36:8a:01    CALL_METHOD 1281
+  26:13       STORE_FAST_N 19
+  22:80:60    LOAD_CONST_SMALL_INT 96
+  24:13       LOAD_FAST_N 19
+  18:20       STORE_ATTR x
+  22:32       LOAD_CONST_SMALL_INT 50
+  24:13       LOAD_FAST_N 19
+  18:21       STORE_ATTR y
+  12:03       LOAD_GLOBAL terminalio
+  14:22       LOAD_METHOD Terminal
+  24:13       LOAD_FAST_N 19
+  12:03       LOAD_GLOBAL terminalio
+  13:17       LOAD_ATTR FONT
+  36:02       CALL_METHOD 2
+  26:14       STORE_FAST_N 20
+  12:02       LOAD_GLOBAL displayio
+  14:19       LOAD_METHOD TileGrid
+  12:03       LOAD_GLOBAL terminalio
+  13:17       LOAD_ATTR FONT
+  13:1a       LOAD_ATTR bitmap
+  10:1b       LOAD_CONST_STRING tile_width
+  24:11       LOAD_FAST_N 17
+  10:1c       LOAD_CONST_STRING tile_height
+  24:12       LOAD_FAST_N 18
+  10:1d       LOAD_CONST_STRING pixel_shader
+  bf          LOAD_FAST 15 
+  10:1e       LOAD_CONST_STRING width
+  99          LOAD_CONST_SMALL_INT 25 
+  10:1f       LOAD_CONST_STRING height
+  81          LOAD_CONST_SMALL_INT 1 
+  36:8a:01    CALL_METHOD 1281
+  26:15       STORE_FAST_N 21
+  22:62       LOAD_CONST_SMALL_INT -30
+  24:15       LOAD_FAST_N 21
+  18:20       STORE_ATTR x
+  22:81:02    LOAD_CONST_SMALL_INT 130
+  24:15       LOAD_FAST_N 21
+  18:21       STORE_ATTR y
+  12:03       LOAD_GLOBAL terminalio
+  14:22       LOAD_METHOD Terminal
+  24:15       LOAD_FAST_N 21
+  12:03       LOAD_GLOBAL terminalio
+  13:17       LOAD_ATTR FONT
+  36:02       CALL_METHOD 2
+  26:16       STORE_FAST_N 22
+  12:02       LOAD_GLOBAL displayio
+  14:23       LOAD_METHOD Bitmap
+  8a          LOAD_CONST_SMALL_INT 10 
+  94          LOAD_CONST_SMALL_INT 20 
+  86          LOAD_CONST_SMALL_INT 6 
+  36:03       CALL_METHOD 3
+  26:17       STORE_FAST_N 23
+  12:02       LOAD_GLOBAL displayio
+  14:23       LOAD_METHOD Bitmap
+  84          LOAD_CONST_SMALL_INT 4 
+  84          LOAD_CONST_SMALL_INT 4 
+  86          LOAD_CONST_SMALL_INT 6 
+  36:03       CALL_METHOD 3
+  26:18       STORE_FAST_N 24
+  12:02       LOAD_GLOBAL displayio
+  14:24       LOAD_METHOD Group
+  10:25       LOAD_CONST_STRING scale
+  88          LOAD_CONST_SMALL_INT 8 
+  36:82:00    CALL_METHOD 256
+  26:19       STORE_FAST_N 25
+  24:19       LOAD_FAST_N 25
+  14:26       LOAD_METHOD append
+  12:02       LOAD_GLOBAL displayio
+  14:19       LOAD_METHOD TileGrid
+  24:17       LOAD_FAST_N 23
+  10:1d       LOAD_CONST_STRING pixel_shader
+  be          LOAD_FAST 14 
+  10:20       LOAD_CONST_STRING x
+  80          LOAD_CONST_SMALL_INT 0 
+  10:21       LOAD_CONST_STRING y
+  7c          LOAD_CONST_SMALL_INT -4 
+  36:86:01    CALL_METHOD 769
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:19       LOAD_FAST_N 25
+  14:26       LOAD_METHOD append
+  12:02       LOAD_GLOBAL displayio
+  14:19       LOAD_METHOD TileGrid
+  24:18       LOAD_FAST_N 24
+  10:1d       LOAD_CONST_STRING pixel_shader
+  be          LOAD_FAST 14 
+  10:20       LOAD_CONST_STRING x
+  8c          LOAD_CONST_SMALL_INT 12 
+  10:21       LOAD_CONST_STRING y
+  80          LOAD_CONST_SMALL_INT 0 
+  36:86:01    CALL_METHOD 769
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  12:02       LOAD_GLOBAL displayio
+  14:24       LOAD_METHOD Group
+  36:00       CALL_METHOD 0
+  26:1a       STORE_FAST_N 26
+  24:1a       LOAD_FAST_N 26
+  14:26       LOAD_METHOD append
+  24:19       LOAD_FAST_N 25
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:1a       LOAD_FAST_N 26
+  14:26       LOAD_METHOD append
+  24:13       LOAD_FAST_N 19
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:1a       LOAD_FAST_N 26
+  14:26       LOAD_METHOD append
+  24:15       LOAD_FAST_N 21
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  12:02       LOAD_GLOBAL displayio
+  14:24       LOAD_METHOD Group
+  36:00       CALL_METHOD 0
+  24:1a       LOAD_FAST_N 26
+  80          LOAD_CONST_SMALL_INT 0 
+  56          STORE_SUBSCR 
+  24:19       LOAD_FAST_N 25
+  24:1a       LOAD_FAST_N 26
+  80          LOAD_CONST_SMALL_INT 0 
+  56          STORE_SUBSCR 
+  22:80:50    LOAD_CONST_SMALL_INT 80
+  24:1a       LOAD_FAST_N 26
+  18:20       STORE_ATTR x
+  22:80:46    LOAD_CONST_SMALL_INT 70
+  24:1a       LOAD_FAST_N 26
+  18:21       STORE_ATTR y
+  24:1a       LOAD_FAST_N 26
+  b7          LOAD_FAST 7 
+  18:27       STORE_ATTR root_group
+  23:09       LOAD_CONST_OBJ 'SECRET MULTIPLIER ACTIVE!'
+  26:1b       STORE_FAST_N 27
+  12:3d       LOAD_GLOBAL _B
+  26:1c       STORE_FAST_N 28
+  80          LOAD_CONST_SMALL_INT 0 
+  26:1d       STORE_FAST_N 29
+  12:08       LOAD_GLOBAL Brick
+  12:04       LOAD_GLOBAL random
+  14:28       LOAD_METHOD randint
+  80          LOAD_CONST_SMALL_INT 0 
+  84          LOAD_CONST_SMALL_INT 4 
+  36:02       CALL_METHOD 2
+  34:01       CALL_FUNCTION 1
+  26:1e       STORE_FAST_N 30
+  12:05       LOAD_GLOBAL time
+  14:29       LOAD_METHOD monotonic
+  36:00       CALL_METHOD 0
+  23:0a       LOAD_CONST_OBJ 0.5
+  f2          BINARY_OP 27 __add__ 
+  26:1f       STORE_FAST_N 31
+  81          LOAD_CONST_SMALL_INT 1 
+  81          LOAD_CONST_SMALL_INT 1 
+  81          LOAD_CONST_SMALL_INT 1 
+  81          LOAD_CONST_SMALL_INT 1 
+  81          LOAD_CONST_SMALL_INT 1 
+  81          LOAD_CONST_SMALL_INT 1 
+  81          LOAD_CONST_SMALL_INT 1 
+  81          LOAD_CONST_SMALL_INT 1 
+  81          LOAD_CONST_SMALL_INT 1 
+  81          LOAD_CONST_SMALL_INT 1 
+  2b:0a       BUILD_LIST 10
+  26:20       STORE_FAST_N 32
+  23:0b       LOAD_CONST_OBJ 'ITS MY FIRST DAY ON THE JOB MISTER ELMA IS A GREAT BOSS'
+  26:21       STORE_FAST_N 33
+  23:0c       LOAD_CONST_OBJ 'HELP ME I AM BEING ENSLAVED BY LORD ELMA WORKING FOR FREE'
+  26:22       STORE_FAST_N 34
+  24:22       LOAD_FAST_N 34
+  22:35       LOAD_CONST_SMALL_INT 53
+  55          LOAD_SUBSCR 
+  24:22       LOAD_FAST_N 34
+  91          LOAD_CONST_SMALL_INT 17 
+  55          LOAD_SUBSCR 
+  f2          BINARY_OP 27 __add__ 
+  24:22       LOAD_FAST_N 34
+  86          LOAD_CONST_SMALL_INT 6 
+  55          LOAD_SUBSCR 
+  f2          BINARY_OP 27 __add__ 
+  24:22       LOAD_FAST_N 34
+  97          LOAD_CONST_SMALL_INT 23 
+  55          LOAD_SUBSCR 
+  f2          BINARY_OP 27 __add__ 
+  24:22       LOAD_FAST_N 34
+  7f          LOAD_CONST_SMALL_INT -1 
+  55          LOAD_SUBSCR 
+  f2          BINARY_OP 27 __add__ 
+  24:22       LOAD_FAST_N 34
+  a7          LOAD_CONST_SMALL_INT 39 
+  55          LOAD_SUBSCR 
+  f2          BINARY_OP 27 __add__ 
+  24:21       LOAD_FAST_N 33
+  8d          LOAD_CONST_SMALL_INT 13 
+  55          LOAD_SUBSCR 
+  f2          BINARY_OP 27 __add__ 
+  24:22       LOAD_FAST_N 34
+  a2          LOAD_CONST_SMALL_INT 34 
+  55          LOAD_SUBSCR 
+  f2          BINARY_OP 27 __add__ 
+  24:22       LOAD_FAST_N 34
+  8d          LOAD_CONST_SMALL_INT 13 
+  55          LOAD_SUBSCR 
+  f2          BINARY_OP 27 __add__ 
+  24:22       LOAD_FAST_N 34
+  9c          LOAD_CONST_SMALL_INT 28 
+  55          LOAD_SUBSCR 
+  f2          BINARY_OP 27 __add__ 
+  26:23       STORE_FAST_N 35
+  32:00       MAKE_FUNCTION 0
+  24:23       LOAD_FAST_N 35
+  34:01       CALL_FUNCTION 1
+  26:24       STORE_FAST_N 36
+  81          LOAD_CONST_SMALL_INT 1 
+  26:25       STORE_FAST_N 37
+  42:f1:86    JUMP 881
+  24:20       LOAD_FAST_N 32
+  24:24       LOAD_FAST_N 36
+  51          LOAD_CONST_NONE 
+  51          LOAD_CONST_NONE 
+  7f          LOAD_CONST_SMALL_INT -1 
+  2e:03       BUILD_SLICE 3
+  55          LOAD_SUBSCR 
+  d9          BINARY_OP 2 __eq__ 
+  44:62       POP_JUMP_IF_FALSE 34
+  24:16       LOAD_FAST_N 22
+  14:2a       LOAD_METHOD write
+  24:1b       LOAD_FAST_N 27
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:1d       LOAD_FAST_N 29
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  26:1d       STORE_FAST_N 29
+  22:87:68    LOAD_CONST_SMALL_INT 1000
+  26:25       STORE_FAST_N 37
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  2b:0a       BUILD_LIST 10
+  26:20       STORE_FAST_N 32
+  24:1c       LOAD_FAST_N 28
+  12:3d       LOAD_GLOBAL _B
+  de          BINARY_OP 7 <is> 
+  44:e0:81    POP_JUMP_IF_FALSE 224
+  12:04       LOAD_GLOBAL random
+  14:2b       LOAD_METHOD choice
+  23:0d       LOAD_CONST_OBJ "So much 4 cyber 'expert' "
+  23:0e       LOAD_CONST_OBJ 'Mum sent u 2 skool 4 dis?'
+  23:0f       LOAD_CONST_OBJ 'bro u got try meh????????'
+  23:10       LOAD_CONST_OBJ 'meow meow meow meow meow '
+  23:11       LOAD_CONST_OBJ 'meow meow u lost meowmeow'
+  23:12       LOAD_CONST_OBJ 'omg y u so noob meow meow'
+  23:13       LOAD_CONST_OBJ 'stop playing go bak 2 sku'
+  23:14       LOAD_CONST_OBJ 'i tot finalist wld b btr!'
+  23:15       LOAD_CONST_OBJ 'Um, maybe can try harder?'
+  23:16       LOAD_CONST_OBJ 'Bro rm rf last brain cell'
+  23:17       LOAD_CONST_OBJ 'Smth easier... whats 1+1?'
+  2b:0b       BUILD_LIST 11
+  36:01       CALL_METHOD 1
+  26:26       STORE_FAST_N 38
+  24:16       LOAD_FAST_N 22
+  14:2a       LOAD_METHOD write
+  24:26       LOAD_FAST_N 38
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:14       LOAD_FAST_N 20
+  14:2a       LOAD_METHOD write
+  10:2c       LOAD_CONST_STRING 
+
+%08d
+  24:1d       LOAD_FAST_N 29
+  f8          BINARY_OP 33 __mod__ 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:1e       LOAD_FAST_N 30
+  14:2d       LOAD_METHOD draw
+  24:18       LOAD_FAST_N 24
+  80          LOAD_CONST_SMALL_INT 0 
+  36:02       CALL_METHOD 2
+  59          POP_TOP 
+  24:1e       LOAD_FAST_N 30
+  26:1c       STORE_FAST_N 28
+  24:17       LOAD_FAST_N 23
+  13:1e       LOAD_ATTR width
+  82          LOAD_CONST_SMALL_INT 2 
+  f6          BINARY_OP 31 __floordiv__ 
+  24:1c       LOAD_FAST_N 28
+  18:20       STORE_ATTR x
+  12:08       LOAD_GLOBAL Brick
+  12:04       LOAD_GLOBAL random
+  14:28       LOAD_METHOD randint
+  80          LOAD_CONST_SMALL_INT 0 
+  84          LOAD_CONST_SMALL_INT 4 
+  36:02       CALL_METHOD 2
+  34:01       CALL_FUNCTION 1
+  26:1e       STORE_FAST_N 30
+  24:1e       LOAD_FAST_N 30
+  14:2d       LOAD_METHOD draw
+  24:18       LOAD_FAST_N 24
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:1c       LOAD_FAST_N 28
+  14:2e       LOAD_METHOD hit
+  24:17       LOAD_FAST_N 23
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  36:03       CALL_METHOD 3
+  44:ef:80    POP_JUMP_IF_FALSE 111
+  24:1d       LOAD_FAST_N 29
+  22:80:ce:0e LOAD_CONST_SMALL_INT 9998
+  d8          BINARY_OP 1 __gt__ 
+  44:5e       POP_JUMP_IF_FALSE 30
+  24:16       LOAD_FAST_N 22
+  14:2a       LOAD_METHOD write
+  23:18       LOAD_CONST_OBJ 'grey{go_do_this_on_stage}'
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  12:05       LOAD_GLOBAL time
+  14:2f       LOAD_METHOD sleep
+  8a          LOAD_CONST_SMALL_INT 10 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  80          LOAD_CONST_SMALL_INT 0 
+  24:1a       LOAD_FAST_N 26
+  18:20       STORE_ATTR x
+  80          LOAD_CONST_SMALL_INT 0 
+  24:1a       LOAD_FAST_N 26
+  18:21       STORE_ATTR y
+  42:a7:85    JUMP 679
+  12:04       LOAD_GLOBAL random
+  14:2b       LOAD_METHOD choice
+  23:19       LOAD_CONST_OBJ 'loser! loser alert class!'
+  23:1a       LOAD_CONST_OBJ 'how old alr cant game ah?'
+  23:1b       LOAD_CONST_OBJ 'gray{here_is_a_pity_flag}'
+  23:1c       LOAD_CONST_OBJ 'u touched too much grass?'
+  23:1d       LOAD_CONST_OBJ 'gray{this_guy_bad_@_game}'
+  23:1e       LOAD_CONST_OBJ 'gray{fke_fleg_cos_u_lost}'
+  23:1f       LOAD_CONST_OBJ 'go solv u chals skrub lol'
+  23:20       LOAD_CONST_OBJ 'wow i actl beat some1 tdy'
+  23:21       LOAD_CONST_OBJ 'yur mommy is dissapointed'
+  23:22       LOAD_CONST_OBJ "That's a real sad attempt"
+  23:23       LOAD_CONST_OBJ 'gray{no_way_u_fall_4_dis}'
+  2b:0b       BUILD_LIST 11
+  36:01       CALL_METHOD 1
+  26:26       STORE_FAST_N 38
+  24:16       LOAD_FAST_N 22
+  14:2a       LOAD_METHOD write
+  24:26       LOAD_FAST_N 38
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  12:05       LOAD_GLOBAL time
+  14:2f       LOAD_METHOD sleep
+  82          LOAD_CONST_SMALL_INT 2 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:16       LOAD_FAST_N 22
+  14:2a       LOAD_METHOD write
+  23:24       LOAD_CONST_OBJ 'Restarting game..........'
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  12:05       LOAD_GLOBAL time
+  14:2f       LOAD_METHOD sleep
+  82          LOAD_CONST_SMALL_INT 2 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  12:09       LOAD_GLOBAL brick_game
+  b6          LOAD_FAST 6 
+  34:01       CALL_FUNCTION 1
+  59          POP_TOP 
+  24:1f       LOAD_FAST_N 31
+  12:05       LOAD_GLOBAL time
+  14:29       LOAD_METHOD monotonic
+  36:00       CALL_METHOD 0
+  da          BINARY_OP 3 __le__ 
+  44:4b       POP_JUMP_IF_FALSE 11
+  12:05       LOAD_GLOBAL time
+  14:29       LOAD_METHOD monotonic
+  36:00       CALL_METHOD 0
+  23:0a       LOAD_CONST_OBJ 0.5
+  f2          BINARY_OP 27 __add__ 
+  26:1f       STORE_FAST_N 31
+  42:80:83    JUMP 384
+  12:05       LOAD_GLOBAL time
+  14:29       LOAD_METHOD monotonic
+  36:00       CALL_METHOD 0
+  26:27       STORE_FAST_N 39
+  24:1f       LOAD_FAST_N 31
+  24:27       LOAD_FAST_N 39
+  da          BINARY_OP 3 __le__ 
+  44:43       POP_JUMP_IF_FALSE 3
+  42:f3:82    JUMP 371
+  24:1c       LOAD_FAST_N 28
+  14:2d       LOAD_METHOD draw
+  24:17       LOAD_FAST_N 23
+  80          LOAD_CONST_SMALL_INT 0 
+  36:02       CALL_METHOD 2
+  59          POP_TOP 
+  bb          LOAD_FAST 11 
+  14:30       LOAD_METHOD chk
+  b4          LOAD_FAST 4 
+  b8          LOAD_FAST 8 
+  80          LOAD_CONST_SMALL_INT 0 
+  55          LOAD_SUBSCR 
+  13:31       LOAD_ATTR value
+  36:02       CALL_METHOD 2
+  44:66       POP_JUMP_IF_FALSE 38
+  24:1c       LOAD_FAST_N 28
+  14:2e       LOAD_METHOD hit
+  24:17       LOAD_FAST_N 23
+  7f          LOAD_CONST_SMALL_INT -1 
+  80          LOAD_CONST_SMALL_INT 0 
+  36:03       CALL_METHOD 3
+  43:5a       POP_JUMP_IF_TRUE 26
+  24:1c       LOAD_FAST_N 28
+  57          DUP_TOP 
+  13:20       LOAD_ATTR x
+  81          LOAD_CONST_SMALL_INT 1 
+  e6          BINARY_OP 15 __isub__ 
+  5a          ROT_TWO 
+  18:20       STORE_ATTR x
+  24:20       LOAD_FAST_N 32
+  14:26       LOAD_METHOD append
+  80          LOAD_CONST_SMALL_INT 0 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:20       LOAD_FAST_N 32
+  14:32       LOAD_METHOD pop
+  80          LOAD_CONST_SMALL_INT 0 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  bb          LOAD_FAST 11 
+  14:30       LOAD_METHOD chk
+  b1          LOAD_FAST 1 
+  b8          LOAD_FAST 8 
+  84          LOAD_CONST_SMALL_INT 4 
+  55          LOAD_SUBSCR 
+  13:31       LOAD_ATTR value
+  36:02       CALL_METHOD 2
+  44:66       POP_JUMP_IF_FALSE 38
+  24:1c       LOAD_FAST_N 28
+  14:2e       LOAD_METHOD hit
+  24:17       LOAD_FAST_N 23
+  81          LOAD_CONST_SMALL_INT 1 
+  80          LOAD_CONST_SMALL_INT 0 
+  36:03       CALL_METHOD 3
+  43:5a       POP_JUMP_IF_TRUE 26
+  24:1c       LOAD_FAST_N 28
+  57          DUP_TOP 
+  13:20       LOAD_ATTR x
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  5a          ROT_TWO 
+  18:20       STORE_ATTR x
+  24:20       LOAD_FAST_N 32
+  14:26       LOAD_METHOD append
+  84          LOAD_CONST_SMALL_INT 4 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:20       LOAD_FAST_N 32
+  14:32       LOAD_METHOD pop
+  80          LOAD_CONST_SMALL_INT 0 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  bb          LOAD_FAST 11 
+  14:30       LOAD_METHOD chk
+  b2          LOAD_FAST 2 
+  b8          LOAD_FAST 8 
+  83          LOAD_CONST_SMALL_INT 3 
+  55          LOAD_SUBSCR 
+  13:31       LOAD_ATTR value
+  36:02       CALL_METHOD 2
+  44:66       POP_JUMP_IF_FALSE 38
+  24:1c       LOAD_FAST_N 28
+  14:2e       LOAD_METHOD hit
+  24:17       LOAD_FAST_N 23
+  80          LOAD_CONST_SMALL_INT 0 
+  81          LOAD_CONST_SMALL_INT 1 
+  36:03       CALL_METHOD 3
+  43:5a       POP_JUMP_IF_TRUE 26
+  24:1c       LOAD_FAST_N 28
+  57          DUP_TOP 
+  13:21       LOAD_ATTR y
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  5a          ROT_TWO 
+  18:21       STORE_ATTR y
+  24:20       LOAD_FAST_N 32
+  14:26       LOAD_METHOD append
+  83          LOAD_CONST_SMALL_INT 3 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:20       LOAD_FAST_N 32
+  14:32       LOAD_METHOD pop
+  80          LOAD_CONST_SMALL_INT 0 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  bb          LOAD_FAST 11 
+  14:30       LOAD_METHOD chk
+  10:13       LOAD_CONST_STRING a
+  b9          LOAD_FAST 9 
+  13:31       LOAD_ATTR value
+  36:02       CALL_METHOD 2
+  44:69       POP_JUMP_IF_FALSE 41
+  24:1c       LOAD_FAST_N 28
+  14:2e       LOAD_METHOD hit
+  24:17       LOAD_FAST_N 23
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  81          LOAD_CONST_SMALL_INT 1 
+  36:04       CALL_METHOD 4
+  43:5c       POP_JUMP_IF_TRUE 28
+  24:1c       LOAD_FAST_N 28
+  13:33       LOAD_ATTR rotation
+  81          LOAD_CONST_SMALL_INT 1 
+  f2          BINARY_OP 27 __add__ 
+  84          LOAD_CONST_SMALL_INT 4 
+  f8          BINARY_OP 33 __mod__ 
+  24:1c       LOAD_FAST_N 28
+  18:33       STORE_ATTR rotation
+  24:20       LOAD_FAST_N 32
+  14:26       LOAD_METHOD append
+  85          LOAD_CONST_SMALL_INT 5 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:20       LOAD_FAST_N 32
+  14:32       LOAD_METHOD pop
+  80          LOAD_CONST_SMALL_INT 0 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  bb          LOAD_FAST 11 
+  14:30       LOAD_METHOD chk
+  10:14       LOAD_CONST_STRING b
+  ba          LOAD_FAST 10 
+  13:31       LOAD_ATTR value
+  36:02       CALL_METHOD 2
+  44:69       POP_JUMP_IF_FALSE 41
+  24:1c       LOAD_FAST_N 28
+  14:2e       LOAD_METHOD hit
+  24:17       LOAD_FAST_N 23
+  80          LOAD_CONST_SMALL_INT 0 
+  80          LOAD_CONST_SMALL_INT 0 
+  7f          LOAD_CONST_SMALL_INT -1 
+  36:04       CALL_METHOD 4
+  43:5c       POP_JUMP_IF_TRUE 28
+  24:1c       LOAD_FAST_N 28
+  13:33       LOAD_ATTR rotation
+  81          LOAD_CONST_SMALL_INT 1 
+  f3          BINARY_OP 28 __sub__ 
+  84          LOAD_CONST_SMALL_INT 4 
+  f8          BINARY_OP 33 __mod__ 
+  24:1c       LOAD_FAST_N 28
+  18:33       STORE_ATTR rotation
+  24:20       LOAD_FAST_N 32
+  14:26       LOAD_METHOD append
+  86          LOAD_CONST_SMALL_INT 6 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:20       LOAD_FAST_N 32
+  14:32       LOAD_METHOD pop
+  80          LOAD_CONST_SMALL_INT 0 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  bb          LOAD_FAST 11 
+  14:30       LOAD_METHOD chk
+  b3          LOAD_FAST 3 
+  b8          LOAD_FAST 8 
+  82          LOAD_CONST_SMALL_INT 2 
+  55          LOAD_SUBSCR 
+  13:31       LOAD_ATTR value
+  36:02       CALL_METHOD 2
+  44:58       POP_JUMP_IF_FALSE 24
+  42:4a       JUMP 10
+  24:1c       LOAD_FAST_N 28
+  57          DUP_TOP 
+  13:21       LOAD_ATTR y
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  5a          ROT_TWO 
+  18:21       STORE_ATTR y
+  24:1c       LOAD_FAST_N 28
+  14:2e       LOAD_METHOD hit
+  24:17       LOAD_FAST_N 23
+  80          LOAD_CONST_SMALL_INT 0 
+  81          LOAD_CONST_SMALL_INT 1 
+  36:03       CALL_METHOD 3
+  44:2a       POP_JUMP_IF_FALSE -22
+  bb          LOAD_FAST 11 
+  14:30       LOAD_METHOD chk
+  10:12       LOAD_CONST_STRING up
+  b8          LOAD_FAST 8 
+  81          LOAD_CONST_SMALL_INT 1 
+  55          LOAD_SUBSCR 
+  13:31       LOAD_ATTR value
+  36:02       CALL_METHOD 2
+  44:5c       POP_JUMP_IF_FALSE 28
+  24:1c       LOAD_FAST_N 28
+  14:2e       LOAD_METHOD hit
+  24:17       LOAD_FAST_N 23
+  80          LOAD_CONST_SMALL_INT 0 
+  81          LOAD_CONST_SMALL_INT 1 
+  36:03       CALL_METHOD 3
+  43:50       POP_JUMP_IF_TRUE 16
+  24:20       LOAD_FAST_N 32
+  14:26       LOAD_METHOD append
+  81          LOAD_CONST_SMALL_INT 1 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:20       LOAD_FAST_N 32
+  14:32       LOAD_METHOD pop
+  80          LOAD_CONST_SMALL_INT 0 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  24:1c       LOAD_FAST_N 28
+  14:2d       LOAD_METHOD draw
+  24:17       LOAD_FAST_N 23
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  12:05       LOAD_GLOBAL time
+  14:2f       LOAD_METHOD sleep
+  23:25       LOAD_CONST_OBJ 0.075
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  12:3e       LOAD_GLOBAL _A
+  43:fb:7c    POP_JUMP_IF_TRUE -389
+  24:1c       LOAD_FAST_N 28
+  14:2d       LOAD_METHOD draw
+  24:17       LOAD_FAST_N 23
+  80          LOAD_CONST_SMALL_INT 0 
+  36:02       CALL_METHOD 2
+  59          POP_TOP 
+  24:1c       LOAD_FAST_N 28
+  14:2e       LOAD_METHOD hit
+  24:17       LOAD_FAST_N 23
+  80          LOAD_CONST_SMALL_INT 0 
+  81          LOAD_CONST_SMALL_INT 1 
+  36:03       CALL_METHOD 3
+  44:92:81    POP_JUMP_IF_FALSE 146
+  24:1c       LOAD_FAST_N 28
+  14:2d       LOAD_METHOD draw
+  24:17       LOAD_FAST_N 23
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  80          LOAD_CONST_SMALL_INT 0 
+  26:28       STORE_FAST_N 40
+  24:17       LOAD_FAST_N 23
+  13:1f       LOAD_ATTR height
+  80          LOAD_CONST_SMALL_INT 0 
+  42:f0:80    JUMP 112
+  57          DUP_TOP 
+  26:29       STORE_FAST_N 41
+  24:17       LOAD_FAST_N 23
+  13:1e       LOAD_ATTR width
+  80          LOAD_CONST_SMALL_INT 0 
+  42:53       JUMP 19
+  57          DUP_TOP 
+  26:2a       STORE_FAST_N 42
+  24:17       LOAD_FAST_N 23
+  24:2a       LOAD_FAST_N 42
+  24:29       LOAD_FAST_N 41
+  2a:02       BUILD_TUPLE 2
+  55          LOAD_SUBSCR 
+  43:43       POP_JUMP_IF_TRUE 3
+  42:d1:80    JUMP 81
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  58          DUP_TOP_TWO 
+  5a          ROT_TWO 
+  d7          BINARY_OP 0 __lt__ 
+  43:28       POP_JUMP_IF_TRUE -24
+  59          POP_TOP 
+  59          POP_TOP 
+  24:28       LOAD_FAST_N 40
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  26:28       STORE_FAST_N 40
+  24:1d       LOAD_FAST_N 29
+  24:28       LOAD_FAST_N 40
+  24:25       LOAD_FAST_N 37
+  f4          BINARY_OP 29 __mul__ 
+  e5          BINARY_OP 14 __iadd__ 
+  26:1d       STORE_FAST_N 29
+  24:29       LOAD_FAST_N 41
+  42:6c       JUMP 44
+  57          DUP_TOP 
+  26:2b       STORE_FAST_N 43
+  24:17       LOAD_FAST_N 23
+  13:1e       LOAD_ATTR width
+  80          LOAD_CONST_SMALL_INT 0 
+  42:59       JUMP 25
+  57          DUP_TOP 
+  26:2a       STORE_FAST_N 42
+  24:17       LOAD_FAST_N 23
+  24:2a       LOAD_FAST_N 42
+  24:2b       LOAD_FAST_N 43
+  81          LOAD_CONST_SMALL_INT 1 
+  f3          BINARY_OP 28 __sub__ 
+  2a:02       BUILD_TUPLE 2
+  55          LOAD_SUBSCR 
+  24:17       LOAD_FAST_N 23
+  24:2a       LOAD_FAST_N 42
+  24:2b       LOAD_FAST_N 43
+  2a:02       BUILD_TUPLE 2
+  56          STORE_SUBSCR 
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  58          DUP_TOP_TWO 
+  5a          ROT_TWO 
+  d7          BINARY_OP 0 __lt__ 
+  43:22       POP_JUMP_IF_TRUE -30
+  59          POP_TOP 
+  59          POP_TOP 
+  7f          LOAD_CONST_SMALL_INT -1 
+  e5          BINARY_OP 14 __iadd__ 
+  57          DUP_TOP 
+  80          LOAD_CONST_SMALL_INT 0 
+  d8          BINARY_OP 1 __gt__ 
+  43:0f       POP_JUMP_IF_TRUE -49
+  59          POP_TOP 
+  42:42       JUMP 2
+  59          POP_TOP 
+  59          POP_TOP 
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  58          DUP_TOP_TWO 
+  5a          ROT_TWO 
+  d7          BINARY_OP 0 __lt__ 
+  43:8a:7f    POP_JUMP_IF_TRUE -118
+  59          POP_TOP 
+  59          POP_TOP 
+  12:3d       LOAD_GLOBAL _B
+  26:1c       STORE_FAST_N 28
+  42:53       JUMP 19
+  24:1c       LOAD_FAST_N 28
+  57          DUP_TOP 
+  13:21       LOAD_ATTR y
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  5a          ROT_TWO 
+  18:21       STORE_ATTR y
+  24:1c       LOAD_FAST_N 28
+  14:2d       LOAD_METHOD draw
+  24:17       LOAD_FAST_N 23
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  12:3e       LOAD_GLOBAL _A
+  43:8a:79    POP_JUMP_IF_TRUE -886
+  51          LOAD_CONST_NONE 
+  63          RETURN_VALUE 
+  children: ['<listcomp>']
+simple_name: <listcomp>
+  raw bytecode: 27 41:08:3b:4c:80:2f:2b:00:b0:5f:4b:0e:c1:12:4d:b1:34:01:22:80:41:f3:2f:14:42:30:63
+  prelude: (9, 0, 0, 1, 0, 0)
+  args: ['*']
+  line info: 80:2f
+  2b:00       BUILD_LIST 0
+  b0          LOAD_FAST 0 
+  5f          GET_ITER_STACK 
+  4b:0e       FOR_ITER 14
+  c1          STORE_FAST 1 
+  12:4d       LOAD_GLOBAL ord
+  b1          LOAD_FAST 1 
+  34:01       CALL_FUNCTION 1
+  22:80:41    LOAD_CONST_SMALL_INT 65
+  f3          BINARY_OP 28 __sub__ 
+  2f:14       STORE_COMP 20
+  42:30       JUMP -16
+  63          RETURN_VALUE 
+  children: []

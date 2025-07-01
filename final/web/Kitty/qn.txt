@@ -1,0 +1,7 @@
+Kitty
+996
+jro
+
+This sandbox is so secure, I'll let you perform any file operation you want!
+
+http://challs.nusgreyhats.org:33334

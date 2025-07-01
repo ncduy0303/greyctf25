@@ -1,0 +1,15 @@
+Leaky Pin
+1000
+itsme-zeix
+
+I wonder if there's something special in the secret pin....
+
+Stop the backend and run this in the Thonny REPL to start the challenge.
+
+
+from leaky_gpio25 import *
+
+>>> from leaky_gpio25 import *
+Calling secret_in_gpio25() causes bits to fly through GPIO25 at blazing speed (150Mhz!). Maybe one of the chip's feature could help us catch it?
+>>> secret_in_gpio25()
+I leaked the secret in GPIO25! Catch me if you can!
